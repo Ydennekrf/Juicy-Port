@@ -25,9 +25,9 @@ body {
   }
   #header {
     position: absolute;
-    width: 600px ;
-    top: 12%;
-    right:-290px;
+    width: 100%;
+    top: 20%;
+    left: 70%;
     z-index: 1;
     border-bottom: #281b13 10px solid;
   }
@@ -50,13 +50,13 @@ body {
   .landing-icon img{
     
     padding-bottom: 17px;
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
   }
   .landing-icon {
     list-style-type: none;
     position: relative;
-    right: 50%;
+    right: 40%;
     justify-content: center;
   }
   .landing-icon a {
@@ -73,6 +73,15 @@ body {
     bottom: 15px;
     font-size: 13px;
   }
+  .nav-link-active {
+    position: relative;
+    justify-self: center;
+    left: 1%;
+    bottom: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    text-shadow: 2px 0px 2px #74cab4c7;
+  }
 
   #nav {
     background-color: #f3e767c7;
@@ -81,7 +90,7 @@ body {
     position: absolute;
     width: 45px;
     right: 10%;
-    top: 20%;
+    top: 21%;
     border: #281b13 3px solid;
     z-index: 1;
   }
@@ -117,5 +126,39 @@ body {
     /* box-shadow: 5px 5px 5px #7d8366ca;
     border-radius: 5px 5px ; */
   }
+
+  #about {
+    background-color: #f3e767da;
+    border: #281b13 3px solid;
+    font-weight: 650;
+    color: #000000;
+    font-size: 13px;
+    z-index: 1;
+    position: absolute;
+    top: 27%;
+    left: 19%;
+    width: 675px;
+    height: fit-content;
+    font-family: "Bungee Hairline";
+  }
+  #aboutMe {
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 19%;
+  }
+  #avatar {
+    z-index: 1;
+    position: absolute;
+    left:-14.5%;
+    top:28.5%;
+  }
+
+  #avatar-pic {
+    height: 900px;
+  
+  }
+
+
 
 
