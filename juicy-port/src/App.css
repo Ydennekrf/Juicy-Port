@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    margin: 0;
+    font-family: "Special Elite", "Bungee Hairline", "Major Mono Display";
+    
+    background-color: rgb(154, 138, 94);
+    
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* canvas {
+    display: block;
+    vertical-align: bottom;
+  } */
+  /* ---- tsparticles container ---- */
+  #tsparticles {
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    top: 20%;
+    left: 20%;
   }
-  to {
-    transform: rotate(360deg);
+  #parts {
+    position: absolute;
+    width: 100%;
+    height: 100%;
   }
-}
+  #header {
+    position: absolute;
+    width: 600px ;
+    top: 12%;
+    right:-290px;
+    z-index: 1;
+    border-bottom: #281b13 10px solid;
+  }
+  #under-bar {
+    position: absolute;
+    width: 530px;
+    top:24.8%;
+    left: -50px;
+    z-index: 1;
+    border-bottom: #281b13 10px solid;
+  }
+  #bottom-bar {
+    position: absolute;
+    width: 100%;
+    bottom:20%;
+    z-index: 1;
+    border-bottom: #281b13 10px solid;
+  }
+
+  .landing-icon img{
+    
+    padding-bottom: 17px;
+    height: 100%;
+    width: 100%;
+  }
+  .landing-icon {
+    list-style-type: none;
+    position: relative;
+    right: 50%;
+    justify-content: center;
+  }
+  .landing-icon a {
+
+    text-decoration: none;
+    color: #19181f;
+    
+        
+  }
+  .nav-word {
+    position: relative;
+    justify-self: center;
+    left: 1%;
+    bottom: 15px;
+    font-size: 13px;
+  }
+
+  #nav {
+    background-color: #f3e767c7;
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    width: 45px;
+    right: 10%;
+    top: 20%;
+    border: #281b13 3px solid;
+    z-index: 1;
+  }
+
+  #viewport {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width:75%;
+    height: 75%;
+    border: 2px solid #281b13;
+    background-image: url('../src/assets/empty-back.png');
+    background-repeat: no-repeat;
+    background-position: 60% 10%;
+    background-size: cover;
+    
+    box-shadow:0px 0px 5px #19181f;
+  }
+
+  #brand {
+    background-color: #f3e767c2;
+    border: #281b13 3px solid;
+    font-weight: 200;
+    color: #19181f;
+    font-size: 24px;
+    z-index: 1;
+    position: absolute;
+    top: 27%;
+    left: 20%;
+    width: 175px;
+    height: fit-content;
+    font-family: "Major Mono Display";
+    /* box-shadow: 5px 5px 5px #7d8366ca;
+    border-radius: 5px 5px ; */
+  }
+
+
