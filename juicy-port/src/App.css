@@ -24,25 +24,25 @@ body {
     height: 100%;
   }
   #header {
-    position: absolute;
-    width: 100%;
-    top: 20%;
-    left: 70%;
+    font-size: 40px;
+    position: relative;
+    display: flex;
+    min-width: 315px;
+    top: 5%;
+    right: -65%;
     z-index: 1;
-    border-bottom: #281b13 10px solid;
   }
   #under-bar {
     position: absolute;
-    width: 530px;
-    top:24.8%;
-    left: -50px;
+    width: 100%;
+    top: 15%;
     z-index: 1;
     border-bottom: #281b13 10px solid;
   }
   #bottom-bar {
     position: absolute;
     width: 100%;
-    bottom:20%;
+    bottom:10%;
     z-index: 1;
     border-bottom: #281b13 10px solid;
   }
@@ -90,12 +90,48 @@ body {
     position: absolute;
     width: 45px;
     right: 10%;
-    top: 21%;
+    top: 18%;
     border: #281b13 3px solid;
     z-index: 1;
   }
+  #workNav {
+    background-color: #f3e767c7;
+    display: inline-flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: left;
+    width: 30%;
+    max-height: 7%;
+    left: 5%;
+    bottom: -1%;
+    border: #281b13 3px solid;
+    z-index: 1;
+  }
+  .work-icon {
+    list-style-type:none;
+  }
+  .work-icon img {
+    position: relative;
+    bottom: 19%;
+    max-height: 45%;
+    max-width: 45%;
+    padding-bottom: 9px;
+  }
+  .work-icon a {
+    text-decoration: none;
+    color: #19181f;
+    position: relative;
+  }
+  .work-word {
+    position: relative;
+    justify-self: center;
+    left: 10%;
+    bottom: 18px;
+    font-size: 13px;
+  }
 
   #viewport {
+    display: flex;
     position: absolute;
     top: 10%;
     left: 10%;
@@ -111,6 +147,7 @@ body {
   }
 
   #brand {
+    display:flex;
     background-color: #f3e767c2;
     border: #281b13 3px solid;
     font-weight: 200;
@@ -128,34 +165,40 @@ body {
   }
 
   #about {
+    display:flex;
     background-color: #f3e767da;
     border: #281b13 3px solid;
     font-weight: 650;
-    color: #000000;
+    color: #675630ed;
     font-size: 13px;
     z-index: 1;
     position: absolute;
     top: 27%;
     left: 19%;
-    width: 675px;
+    width: 55%;
     height: fit-content;
     font-family: "Bungee Hairline";
   }
   #aboutMe {
+    display: block;
+    color: #2d2c2cce;
     z-index: 1;
-    position: absolute;
-    top: 20%;
-    left: 19%;
+    position: relative;
+    top: 8%;
+    left: 10%;
   }
   #avatar {
     z-index: 1;
     position: absolute;
-    left:-14.5%;
-    top:28.5%;
+    bottom:10.3%;
+    left:-0.35%;
+    display: block;
+    
+    
   }
 
   #avatar-pic {
-    height: 900px;
+    height: 20%;
   
   }
 

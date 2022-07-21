@@ -7,17 +7,18 @@ import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Work from './pages/Work';
 import NavBar from './NavBar';
+import Avatar from './Avatar';
 
 
 const Main = () => {
-    const [currentPage, setCurrentPage] = useState('Home');
-    const header= '';
+    const [currentPage, setCurrentPage] = useState('Home')
     const renderPage = () => {
         if(currentPage === 'Home') {
             return <Home />;
         }
         if(currentPage === 'About') {
-            return <About />;
+            return (<div><Avatar/>
+            <About /></div>);
         }
         if(currentPage === 'Contact') {
             
@@ -35,14 +36,15 @@ const Main = () => {
     const handlePageChange = (page) => setCurrentPage(page);
     return(
         <div>
+            
+            <div id='viewport'>
             <h1 id='aboutMe'>{currentPage}</h1>
             <h1 id="header">Fraser Kennedy</h1>  
             <div id="under-bar">
                 
             </div>
             <div id='bottom-bar'>
-            </div>  
-            <div id='viewport'>
+            </div>   
                 <NavBar currentPage={currentPage} handlePageChange={handlePageChange} />
                 {renderPage()}
                 <Particle id="parts" />

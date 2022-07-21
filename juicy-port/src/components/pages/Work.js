@@ -1,74 +1,43 @@
 import React, {useState} from 'react'
-import work1 from '../../assets/work1-btn.png';
-import work2 from '../../assets/work2-btn.png';
-import work3 from '../../assets/work3-btn.png';
-import work4 from '../../assets/work4-btn.png';
-import work5 from '../../assets/work5-btn.png';
-import work6 from '../../assets/work6-btn.png';
-import homeBtn from '../../assets/home-btn.png';
-import resumeBtn from '../../assets/resume-btn.png';
-import aboutBtn from '../../assets/amout-btn.png';
-import contactBtn from '../../assets/contact-btn.png';
+import WorkNav from '../WorkNav';
+import Work1 from './sub-pages/Work1';
+import Work2 from './sub-pages/Work2';
+import Work3 from './sub-pages/Work3';
+import Work4 from './sub-pages/Work4';
+import Work5 from './sub-pages/Work5';
+import Work6 from './sub-pages/Work6';
 
 const Work = () => {
-  const[currentWork, setCurrentWork] = useState('work1');
+  const[currentPage, setCurrentPage] = useState('Work1');
   const renderWork = () => {
-    if(currentWork === 'work1') {
-      return (
-      <div id="work1">
-        
-      </div>
-      );
+    if(currentPage === 'Work1') {
+      return <Work1 />;
     }
-    if(currentWork === 'work2') {
-      return (
-      <div id="work2">
-        
-      </div>
-      );
+    if(currentPage === 'Work2') {
+      return <Work2 />;
     }
-    if(currentWork === 'work3') {
-      return (
-      <div id="work3">
-        
-      </div>
-      );
+    if(currentPage === 'Work3') {
+      return <Work3 />;
     }
-    if(currentWork === 'work4') {
-      return (
-      <div id="work4">
-        
-      </div>
-      );
+    if(currentPage === 'Work4') {
+      return <Work4 />;
     }
-    if(currentWork === 'work5') {
-      return (
-      <div id="work5">
-        
-      </div>
-      );
+    if(currentPage === 'Work5') {
+      return <Work5 />;
     }
-    if(currentWork === 'work6') {
-      return (
-      <div id="work6">
-        
-      </div>
-      );
+    if(currentPage === 'Work6') {
+      return <Work6 />;
     }
     
   }
+  const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div>
               
     <div id="work">
-        {renderWork}
+        <WorkNav currentPage={currentPage} handlePageChange={handlePageChange} />
+        {renderWork()}
     </div>
-    <div>
-      <ul id='workNav'>
-        <li className='work-icon'></li>
-      </ul>
-    </div>
-
 </div>
   )
 }
