@@ -14,10 +14,10 @@ function Contact() {
         </form>
         <div className="socials">
             <ul className='social-list'>
-                <li><img src={facebook}/></li>
-                <li><img src={twitter}/></li>
-                <li><img src={instagram}/></li>
-                <li><img src={github}/></li>
+                <li className ="socialIcon"><img src={facebook}/></li>
+                <li className ="socialIcon"><img src={twitter}/></li>
+                <li className ="socialIcon"><img src={instagram}/></li>
+                <li className ="socialIcon"><img src={github}/></li>
             </ul>
         </div>
     </div>
