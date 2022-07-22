@@ -1,28 +1,27 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
+import React from 'react'
+import github from '../../assets/svg/github.svg';
+import facebook from '../../assets/svg/facebook.svg';
+import twitter from '../../assets/svg/twitter.svg';
+import instagram from '../../assets/svg/instagram.svg';
 
-
-
-const card = (
-  <React.Fragment>
-    <CardContent>
-    <input type="text" placeholder="email"></input>
-    </CardContent>
-    <CardActions>
-      <Button size="extra-small">Submit</Button>
-    </CardActions>
-  </React.Fragment>
-);
-
-export default function Contact() {
+function Contact() {
   return (
-    <Box className="contactBox" sx={{ gridArea:'main', minWidth: 275 }}>
-      <Card sx={{ bgcolor:'#281b13a7' }} variant="outlined">{card}</Card>
-    </Box>
-  );
+    <div className='work'>
+        <form className='contact-form'>
+            <input className="input" placeholder="name"></input>
+            <input className="input" placeholder='email'></input>
+            <input className="input2" placeholder='message'></input>
+        </form>
+        <div className="socials">
+            <ul className='social-list'>
+                <li><img src={facebook}/></li>
+                <li><img src={twitter}/></li>
+                <li><img src={instagram}/></li>
+                <li><img src={github}/></li>
+            </ul>
+        </div>
+    </div>
+  )
 }
+
+export default Contact

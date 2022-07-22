@@ -11,7 +11,8 @@ import Avatar from './Avatar';
 
 
 const Main = () => {
-    const [currentPage, setCurrentPage] = useState('Home')
+    const [currentPage, setCurrentPage] = useState('Home');
+    
     const renderPage = () => {
         if(currentPage === 'Home') {
             return <Home />;
@@ -34,14 +35,15 @@ const Main = () => {
         }
     };
     const handlePageChange = (page) => setCurrentPage(page);
-    return(
-        <div>
-            
-            <div id='viewport'>
-            <h1 id='aboutMe'>{currentPage}</h1>
-            <h1 id="header">Fraser Kennedy</h1>  
+    return(            
+            <div className='viewport'>
+            <div className="header">
+            <h1>Fraser Kennedy</h1>
+            </div>
+            <div className='current-page'>
+            <h2 >{currentPage}</h2>
+            </div>  
             <div id="under-bar">
-                
             </div>
             <div id='bottom-bar'>
             </div>   
@@ -50,7 +52,6 @@ const Main = () => {
                 <Particle id="parts" />
                 <Animation id="tsparticles" />
             </div>
-       </div>
     );
 }
 export default Main;

@@ -7,8 +7,8 @@ import aboutBtn from '../assets/amout-btn.png';
 
 function NavBar({currentPage, handlePageChange}) {
   return (
-    <div>
-        <ul id="nav">
+    <div className='nav'>
+        <ul >
                     <li className='landing-icon'><a href="#" onClick={() => handlePageChange("Home")}><br/><img src={homeBtn}/><br/><span className={currentPage === 'Home' ? 'nav-link-active' : 'nav-word'}>home</span></a></li>
                     <li className='landing-icon'><a href="#" onClick={() => handlePageChange("About")}><br/><img src={aboutBtn}/><br/><span className={currentPage === 'About' ? 'nav-link-active' : 'nav-word'}>about</span></a></li>
                     <li className='landing-icon'><a href="#" onClick={() => handlePageChange("Work")}><br/><img src={workBtn}/><br/><span className={currentPage === 'Work' ? 'nav-link-active' : 'nav-word'}>work</span></a></li>

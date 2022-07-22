@@ -31,15 +31,11 @@ const Work = () => {
     
   }
   const handleWorkChange = (work) => setCurrentWork(work);
-  return (
-    <div>
-              
-    <div id="work">
-    <button onClick={() => setCurrentWork('gibberish')}>8</button>
+  return (             
+    <div className="work">
         <WorkNav currentWork={currentWork} handleWorkChange={handleWorkChange} />
         {renderWork()}
     </div>
-</div>
   )
 }
 
