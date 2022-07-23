@@ -16,7 +16,7 @@ function WorkNav({currentWork, handleWorkChange}) {
               <li className='work-icon'><a href="#" onClick={() => handleWorkChange("Work3")}><br/><br/><span className={currentWork === 'Work3' ? 'work-link-active' : 'work-word'}><img src={work3} alt="work3"/>3</span></a></li>
               <li className='work-icon'><a href="#" onClick={() => handleWorkChange("Work4")}><br/><br/><span className={currentWork === 'Work4' ? 'work-link-active' : 'work-word'}><img src={work4} alt="work4"/>4</span></a></li>
               <li className='work-icon'><a href="#" onClick={() => handleWorkChange("Work5")}><br/><br/><span className={currentWork === 'Work5' ? 'work-link-active' : 'work-word'}><img src={work5} alt="work5"/>5</span></a></li>
-              <li className='work-icon'><a href="#" onClick={() => handleWorkChange("Work6")}><br/><br/><span className={currentWork === 'Work6' ? 'work-link-active' : 'work-word'}><img src={work6} alt="work6"/>6</span></a></li>
+              <li className='work-icon'><a href="#" onClick={() => handleWorkChange("Work6")}><br/><br/><span className={currentWork === 'Work6' ? 'work-link-active' : 'work-word'}><img src={work6} alt="quiz"/>6</span></a></li>
         </ul>
     </div>
   )

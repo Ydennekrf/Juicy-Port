@@ -127,7 +127,8 @@ body {
     position: absolute;
     bottom:0.3vh;
     left: 2vw;
-    width: 10vw;
+    min-width: 100px;
+    width: 15vw;
     max-height: 5vh;
     border: #281b13 3px solid;
     z-index: 1;
@@ -239,7 +240,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 70vh;
+    height: 40vh;
     width: fit-content;
     top:20vh;
     left: 5vw;
@@ -317,6 +318,14 @@ body {
     font-size: 10px;
     color: #ffffff;
   }
+  .contact-box {
+    position: relative;
+    top:15vh;
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    width: 30vw;
+  }
   .contact-form {
     background-color: #4a331fde;
     border:2px inset #281b13;
@@ -324,29 +333,54 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    top:20vh;
-    left: 5vw;
-    width: 10vw;
-    height: 24vh;
+    top:10vh;
+    width: 14vw;
+    height: 32vh;
     z-index: 1;
+  }
+  .info-list {
+    
+    position: relative;
+    left: 10%;
+    top:1vh;
+    list-style-type: none;
+    font-size: 10px;
+  }
+  .info-head {
+    position: relative;
+    left: 10%;
+    top:1vh;
+    list-style-type: none;
+    font-size: 20px;
   }
   .input {
     position: relative;
     top:2vh;
+    left:0.25vw;
     border: solid 0.5px rgba(252, 241, 177, 0.939);
     margin: 5px;
     height:3vh;
+    width:90%;
     background-color: #c1b197ee;
     border-radius: 5px;
   }
   .input2 {
     position: relative;
     top:2vh;
+    left:0.25vw;
     border: solid 0.5px rgba(252, 241, 177, 0.939);
     margin: 5px;
+    width:90%;
     background-color: #c1b197ee;
     border-radius: 5px;
     height: 9vh;
+  }
+  .contact-btn {
+    position: relative;
+    top:7vh;
+    left:0.5vw;
+    width: 5vw;
+
   }
   .socials {
     position: absolute;
@@ -373,11 +407,11 @@ body {
   }
 
   .resume {
-    background-color: #4a331fde;
+    background-color: #857f4bda;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 50vw;
+    width: 45vw;
     height: 40vh;
     z-index: 1;
     list-style-type: none;
@@ -387,12 +421,20 @@ body {
     border: 2px inset #281b13;
     border-radius: 5px;
   }
+  .resume-list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width:55vw;
+  }
   .resume h2 {
     position: relative;
     top: 3vh;
   }
 
   .download {
+    text-decoration: none;
     position: relative;
     top: 35vh;
     left:5vh;
@@ -404,6 +446,36 @@ body {
   .resume-download {
     width:20px;
   }
+
+  .education {
+    position: relative;
+    top:10vh;
+  }
+  .education p {
+    font-size: 12px;
+  }
+
+  .skills {
+    position: relative;
+    top:5vh;
+
+  }
+  .skills-list {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   height: 20vh;
+   list-style-type: none; 
+  }
+
+.experience {
+  position: relative;
+  top: 1vh;
+}
+.experience-list {
+  list-style-type: none;
+  font-size: 10px;
+}
 
 
 
