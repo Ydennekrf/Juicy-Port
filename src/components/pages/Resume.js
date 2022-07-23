@@ -1,5 +1,6 @@
 import React from 'react';
 import download from '../../assets/svg/download.svg';
+import resume from '../resume.pdf'
 
 function Resume() {
     return(
@@ -48,7 +49,7 @@ function Resume() {
                 <br/></p>
                 </li>
                
-                <li className="download"><a download href="./resume.pdf" ><img className="resume-download" alt="download" src={download}/></a></li>
+                <li className="download"><a download href={resume} ><img className="resume-download" alt="download" src={download}/></a></li>
                 </ul>
             </div>
 
