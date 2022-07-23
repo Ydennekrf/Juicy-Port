@@ -10,16 +10,30 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [License](#license)
   * [Screenshots](#screenshots)
   * [Links](#links)
   * [Questions](#questions)
+  * [License](#license)
       
   ## Installation
   npm start
   ## Usage
   this will be used to show respective employers imformation on myself and recent work examples.
-  ## License
+
+
+## Screenshots
+  ![home](./src/assets/Untitled.png)
+
+
+## Links
+  [Deployed app]()
+
+## Questions
+  For questions please contact: Fraser Kennedy
+  at  [ydennekrf@gmail.com](mailto:ydennekrf@gmail.com)
+  Github Profile: [ydennekrf](https://github.com/ydennekrf) 
+  
+ ## License
   MIT License
 
       Copyright (c) [2022] [Fraser Kennedy]
