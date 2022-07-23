@@ -3,7 +3,7 @@
   This project is licensed under the [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](#license) .
     
   ## Description:
-  This project is a personal portfolio using React.js. It will be a living app that will be regularily updated based on what projects are most recent.
+  This project is a personal portfolio using React.js. It will be a living app that will be regularily updated based on what projects are most recent. This portfolio uses tsparticles.js for animations. 
       
       
   ## Table of contents
@@ -45,7 +45,7 @@
   ![home](./src/assets/Untitled.png)
 
   ##Links
-  [Deployed app]()
+  [Deployed app](https://ydennekrf.github.io/Juicy-Port/)
 
   ## Questions
   For questions please contact: Fraser Kennedy
