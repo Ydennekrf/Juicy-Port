@@ -257,7 +257,7 @@ body {
     text-align: center;
     height: 50px;
     width: 21vw;
-    color: #b6b598;
+    color: #000000;
     margin: 10px;
   }
   .title h1 {
@@ -272,11 +272,12 @@ body {
   .blurb {
     display: flex;
     position: relative;
+    flex-direction: column;
     right:2vw;
     background-color: #54391dd7;
     border:2px inset #221a14e3;
     border-radius: 5px;
-    color: #b6b598;
+    color: #030101;
     left:2vw;
     width:10vw;
   }
@@ -475,6 +476,16 @@ body {
 .experience-list {
   list-style-type: none;
   font-size: 10px;
+}
+
+.focus-work {
+  color:#b6b598;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.blurb p {
+  font-size: 12px;
+  padding-left: 7px;
 }
 
 
