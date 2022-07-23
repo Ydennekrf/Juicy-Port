@@ -42,10 +42,12 @@
       OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
       SOFTWARE.
       
-##Screenshots
+
+## Screenshots
   ![home](./src/assets/Untitled.png)
 
-##Links
+
+## Links
   [Deployed app]()
 
 ## Questions
