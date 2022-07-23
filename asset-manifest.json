@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/Juicy-Port/static/css/main.333c4608.css",
-    "main.js": "/Juicy-Port/static/js/main.92ec0c72.js",
+    "main.js": "/Juicy-Port/static/js/main.dc5a58da.js",
     "static/media/empty-back.png": "/Juicy-Port/static/media/empty-back.42207fbdc0ccf25dafb7.png",
     "static/media/quiz2.png": "/Juicy-Port/static/media/quiz2.bc286e1077d6e99b577b.png",
     "static/media/weatherApp.jpg": "/Juicy-Port/static/media/weatherApp.8cdefe4fec3c99f06473.jpg",
     "static/media/screenshot.png": "/Juicy-Port/static/media/screenshot.d9b412cb636213272081.png",
     "static/media/avatar.png": "/Juicy-Port/static/media/avatar.87223652ca039c72ba86.png",
+    "static/media/resume.pdf": "/Juicy-Port/static/media/resume.fce2c9a2a61b7ba3c8e7.pdf",
     "static/media/htmlgen.png": "/Juicy-Port/static/media/htmlgen.d9f1767eb758e0c668ba.png",
     "static/media/zelda-logo.jpg": "/Juicy-Port/static/media/zelda-logo.215f05fff84ced55be64.jpg",
     "static/media/grocery.png": "/Juicy-Port/static/media/grocery.3ae0032d5daee32298c4.png",
@@ -29,10 +30,10 @@
     "static/media/github.svg": "/Juicy-Port/static/media/github.d4c3fbf515a5c4b4dd5dac6532c2959d.svg",
     "static/media/facebook.svg": "/Juicy-Port/static/media/facebook.2a4d84b0e14f6f510a02e61424710041.svg",
     "main.333c4608.css.map": "/Juicy-Port/static/css/main.333c4608.css.map",
-    "main.92ec0c72.js.map": "/Juicy-Port/static/js/main.92ec0c72.js.map"
+    "main.dc5a58da.js.map": "/Juicy-Port/static/js/main.dc5a58da.js.map"
   },
   "entrypoints": [
     "static/css/main.333c4608.css",
-    "static/js/main.92ec0c72.js"
+    "static/js/main.dc5a58da.js"
   ]
 }
