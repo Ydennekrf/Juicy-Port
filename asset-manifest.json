@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Juicy-Port/static/css/main.333c4608.css",
-    "main.js": "/Juicy-Port/static/js/main.77c2a6dd.js",
+    "main.js": "/Juicy-Port/static/js/main.92ec0c72.js",
     "static/media/empty-back.png": "/Juicy-Port/static/media/empty-back.42207fbdc0ccf25dafb7.png",
     "static/media/quiz2.png": "/Juicy-Port/static/media/quiz2.bc286e1077d6e99b577b.png",
     "static/media/weatherApp.jpg": "/Juicy-Port/static/media/weatherApp.8cdefe4fec3c99f06473.jpg",
@@ -23,15 +23,16 @@
     "static/media/work-btn.svg": "/Juicy-Port/static/media/work-btn.b20e0986e20a3d656140d1e5f801f427.svg",
     "static/media/instagram.svg": "/Juicy-Port/static/media/instagram.c56bdee7b63ebffa6047c1a058ae8de4.svg",
     "static/media/download.svg": "/Juicy-Port/static/media/download.9aac1d8d8ba29168b37b9dd300872a11.svg",
+    "static/media/twitter.svg": "/Juicy-Port/static/media/twitter.b6dc67b86d6c10ecf90b22976c892413.svg",
     "static/media/linkdin.svg": "/Juicy-Port/static/media/linkdin.ed1324b34473e69c8b7366e0d8d5ee94.svg",
     "index.html": "/Juicy-Port/index.html",
     "static/media/github.svg": "/Juicy-Port/static/media/github.d4c3fbf515a5c4b4dd5dac6532c2959d.svg",
     "static/media/facebook.svg": "/Juicy-Port/static/media/facebook.2a4d84b0e14f6f510a02e61424710041.svg",
     "main.333c4608.css.map": "/Juicy-Port/static/css/main.333c4608.css.map",
-    "main.77c2a6dd.js.map": "/Juicy-Port/static/js/main.77c2a6dd.js.map"
+    "main.92ec0c72.js.map": "/Juicy-Port/static/js/main.92ec0c72.js.map"
   },
   "entrypoints": [
     "static/css/main.333c4608.css",
-    "static/js/main.77c2a6dd.js"
+    "static/js/main.92ec0c72.js"
   ]
 }
