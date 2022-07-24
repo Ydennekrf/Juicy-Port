@@ -99,6 +99,8 @@ body {
     
   }
   .landing-icon {
+    padding-bottom: 10px;
+
     position: relative;
     top: -2vh;
     height:5vh;
