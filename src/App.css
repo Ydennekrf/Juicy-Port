@@ -73,13 +73,21 @@ body {
     z-index: 2;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;    
     height: 45vh;
     margin: 0;
     padding:0;
     top:20vh;
     right:5vw;
+    
   }
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    height:45vh;
+    justify-content: space-between;
+  }
+
   .current-page {
     display: flex;
     position: absolute;
@@ -91,11 +99,15 @@ body {
     
   }
   .landing-icon {
+    position: relative;
+    top: -2vh;
+    height:5vh;
     text-align: center;
     list-style-type: none;
   }
    .landing-icon img{
-    width: 30px;
+    width: 2vw;
+    height:3vh;
     position: relative;
     left: 0;
     right: 0;
@@ -132,7 +144,7 @@ body {
     max-height: 5vh;
     border: #281b13 3px solid;
     z-index: 1;
-    
+    align-items: center;
   }
   .workNav ul {
     top: 0.3vh;
@@ -146,7 +158,6 @@ body {
   .work-icon {
     list-style-type:none;
     position: relative;
-    bottom: 10px;
   }
   .work-icon img {
     width:15px;
@@ -191,8 +202,9 @@ body {
     position: absolute;
     top: 22vh;
     left: 10vh;
-    max-width: 225px;
-    max-height: fit-content;
+    overflow-y: auto;
+    max-width: 325px;
+    max-height: 240px;
     font-family: "Major Mono Display";
   }
 
@@ -209,6 +221,9 @@ body {
     left: 19vw;
     width: 39vw;
     height: fit-content;
+    max-height: 42vh;
+    overflow-y: auto;
+
     font-family: "Bungee Hairline";
   }
   .focus {
@@ -538,9 +553,10 @@ body {
       right:0vw;
       justify-content: space-evenly;
     }
-    .nav ul {
+    .nav-list {
+      flex-direction: row;
       position: absolute;
-      top:-4vh;
+      top:-1vh;
       display: flex;
     }
     .current-page {
