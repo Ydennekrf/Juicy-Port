@@ -1,6 +1,6 @@
 import React from 'react';
 import download from '../../assets/svg/download.svg';
-import resume from '../resume.pdf'
+import resume from '../Fkennedy-Resume.pdf'
 
 function Resume() {
     return(
@@ -44,7 +44,7 @@ function Resume() {
                 <h2>Education</h2>
                 <br/><br/><br/>
                 <p><span className="">Full Stack Web Development</span><br/><br/>Boot Camp Certificate<br/>
-                University of Toronto SCS<br/>
+                University of Toronto's SCS<br/>
                 May 2022 - August 2022<br/>
                 <br/></p>
                 </li>

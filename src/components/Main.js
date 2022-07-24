@@ -8,6 +8,7 @@ import Resume from './pages/Resume';
 import Work from './pages/Work';
 import NavBar from './NavBar';
 import Avatar from './Avatar';
+import Socials from './Socials';
 
 
 const Main = () => {
@@ -51,6 +52,7 @@ const Main = () => {
                 {renderPage()}
                 <Particle id="parts" />
                 <Animation id="tsparticles" />
+                <Socials />
             </div>
     );
 }

@@ -184,7 +184,7 @@ body {
     display:flex;
     background-color: #f3e767c2;
     border: #281b13 3px solid;
-    font-weight: 200;
+    font-weight: 500;
     color: #19181f;
     font-size: 24px;
     z-index: 1;
@@ -389,7 +389,7 @@ body {
     height: 5vh;
     width: 7vw;
     bottom:0.5vh;
-    left: 1vw;
+    left: 65vw;
     z-index: 1;
   }
 
@@ -486,6 +486,236 @@ body {
 .blurb p {
   font-size: 12px;
   padding-left: 7px;
+}
+
+@media screen and (max-width: 1000px){
+
+    .viewport {
+      
+      position: absolute;
+      width:100vw;
+      height: 100vh;
+      top:0vh;
+      left:0vw;
+    }
+  
+    #tsparticles {
+      position: absolute;
+      width: 60%;
+      height: 70%;
+      top: 20%;
+      left: 20%;
+    }
+    #parts {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    .header {
+      display: flex;
+      position: absolute;
+      right:5vw;
+      top:9vh;
+      max-height: 42px;
+      z-index: 1;
+    }
+    .header h1 {
+      font-size: 40px;
+    }
+    #under-bar {
+      display: none;
+    }
+    #bottom-bar {
+      display: none;
+    }
+    .nav {
+      position: absolute;
+      z-index: 2;
+      flex-direction: row;
+      width: 100%;
+      height: 6vh;
+      top:0vh;
+      right:0vw;
+      justify-content: space-evenly;
+    }
+    .nav ul {
+      position: absolute;
+      top:-4vh;
+      display: flex;
+    }
+    .current-page {
+      top:15vh;     
+    }
+    .landing-icon {
+      margin-inline: 10px;
+    }
+     .landing-icon img{
+      width: 20px;
+    }
+    .nav-word {
+      font-size: 10px;
+    }
+    .nav-link-active {
+      font-size: 12px;
+      font-weight: 500;
+    }
+  
+   
+    .workNav {
+      left: 0vw;
+      width: 55vw;
+      max-height: 5vh;      
+    }
+    .workNav ul {
+      top: 0vh;
+      height: 7vh;      
+    }
+    .work-icon {
+      bottom: 20px;
+    }  
+    .brand {
+      font-family: "Major Mono Display";
+    }
+  
+    .about {
+      font-size: 10px;
+      top: 37vh;
+      left: 4vw;
+      width: 90%;
+      height: 55%;
+      overflow: auto;
+      font-family: "Bungee Hairline";
+    }
+    .focus {
+      font-size: 10px;
+    }
+  
+    #avatar {
+      top:18vh;
+      left:-1.2vw;
+    }
+  
+    #avatar-pic {
+      height: 155px;
+    
+    }
+  
+    .workbox {
+      height: 40vh;
+      width: 95%;
+      top:20vh;
+      left: 3vw;
+    }
+    .title {
+      height: 50px;
+      width: 40vw;
+    }
+    .title h1 {
+      font-size: 20px;
+      top: 1vh;
+    }
+    .blurb {
+      right:2vw;
+      left:2vw;
+      width:40vw;
+    }
+    .work-link {
+      margin-right: 55px;
+      width: 27vw;
+      height: 35px;
+    }
+    .screenshot {
+      margin-right: 10px;
+      height:30vh;
+      width: 40vw;
+    }
+  
+    .screenshot img {
+      width: 39vw;
+      height: 27vh;
+    }
+    .contact-box {
+      height: 100vh;
+      width: 100vw;
+    }
+    .contact-form {
+      width: 64vw;
+      height: 38vh;
+    }
+    .contact-btn {
+      left:16vw;
+      width: 30vw;
+  
+    }
+    .socials {
+      width: 49vw;
+      left:53vw;
+    }
+    .social-list img {
+      width: 5vw;
+    }
+  
+    .resume {
+      background-color: #857f4bda;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 90vw;
+      height: 60vh;
+    }
+    .resume-list {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      justify-content: space-evenly;
+      width:55vw;
+    }
+    .resume h2 {
+      position: relative;
+      top: 3vh;
+    }
+  
+    .download {
+      position: absolute;
+      top: 55vh;
+      left:45vh;
+      height: 4vh;
+    }
+  
+    .education {
+      position: relative;
+      top:15vh;
+      left:11vw;
+      font-size: 10px;
+    }
+  
+    .skills {
+      position: relative;
+      top:10vh;
+      font-size: 10px;
+  
+    }
+  
+  .experience {
+    font-size: 10px;
+    position: relative;
+    right:8vw;
+    top: 1vh;
+  }
+  .experience-list {
+    list-style-type: none;
+    font-size: 10px;
+  }
+  
+  .focus-work {
+    color:#b6b598;
+    padding-top: 10px;
+    padding-left: 5px;
+  }
+  .blurb p {
+    font-size: 12px;
+    padding-left: 7px;
+  }
 }
 
 
