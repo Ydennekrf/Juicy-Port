@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Juicy-Port/static/css/main.0b6a3747.css",
+    "main.css": "/Juicy-Port/static/css/main.061919a8.css",
     "main.js": "/Juicy-Port/static/js/main.6b762164.js",
     "static/media/empty-back.png": "/Juicy-Port/static/media/empty-back.42207fbdc0ccf25dafb7.png",
     "static/media/quiz2.png": "/Juicy-Port/static/media/quiz2.bc286e1077d6e99b577b.png",
@@ -29,11 +29,11 @@
     "index.html": "/Juicy-Port/index.html",
     "static/media/github.svg": "/Juicy-Port/static/media/github.d4c3fbf515a5c4b4dd5dac6532c2959d.svg",
     "static/media/facebook.svg": "/Juicy-Port/static/media/facebook.2a4d84b0e14f6f510a02e61424710041.svg",
-    "main.0b6a3747.css.map": "/Juicy-Port/static/css/main.0b6a3747.css.map",
+    "main.061919a8.css.map": "/Juicy-Port/static/css/main.061919a8.css.map",
     "main.6b762164.js.map": "/Juicy-Port/static/js/main.6b762164.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b6a3747.css",
+    "static/css/main.061919a8.css",
     "static/js/main.6b762164.js"
   ]
 }
