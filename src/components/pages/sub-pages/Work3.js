@@ -4,7 +4,7 @@ function Work3() {
   return (
     <div className='workbox'>
         <div className="work-header">
-        <div className="work-link"><a href="https://just-acorn.herokuapp.com/">Deployed App</a></div>
+        <div className="work-link"><a href="https://just-acorn.herokuapp.com/" target="_blank">Deployed App</a></div>
         <div className="title"><h1>Gro.Cery .List</h1></div>
         </div>
         <div className="work-content">

@@ -4,7 +4,7 @@ function Work2() {
   return (
     <div className='workbox'>
         <div className="work-header">
-        <div className="work-link"><a href="https://github.com/Ydennekrf/Html-generator">Git Hub Link</a></div>
+        <div className="work-link"><a href="https://github.com/Ydennekrf/Html-generator" target="_blank">Git Hub Link</a></div>
         <div className="title"><h1>Htm.L Gener.Ator.</h1></div>
         </div>
         <div className="work-content">

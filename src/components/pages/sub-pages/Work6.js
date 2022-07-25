@@ -4,7 +4,7 @@ function Work6() {
   return (
     <div className='workbox'>
         <div className="work-header">
-        <div className="work-link"><a href="https://ydennekrf.github.io/Java-Script-Quiz/">Deployed App</a></div>
+        <div className="work-link"><a href="https://ydennekrf.github.io/Java-Script-Quiz/" target="_blank">Deployed App</a></div>
         <div className="title"><h1>Jav.AScript .Quiz</h1></div>
         </div>
         <div className="work-content">

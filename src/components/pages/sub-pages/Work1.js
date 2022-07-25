@@ -4,7 +4,7 @@ function Work1() {
   return (
     <div className='workbox'>
         <div className="work-header">
-        <div className="work-link"><a href="https://ydennekrf.github.io/Zelda-Travel-App/">Deployed App</a></div>
+        <div className="work-link"><a href="https://ydennekrf.github.io/Zelda-Travel-App/" target="_blank">Deployed App</a></div>
         <div className="title"><h1>Zel.Da Travel. App</h1></div>
         </div>
         <div className="work-content">

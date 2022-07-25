@@ -4,7 +4,7 @@ function Work4() {
   return (
     <div className='workbox'>
         <div className="work-header">
-        <div className="work-link"><a href="https://ydennekrf.github.io/Weather-App/">Deployed App</a></div>
+        <div className="work-link"><a href="https://ydennekrf.github.io/Weather-App/" target="_blank">Deployed App</a></div>
         <div className="title"><h1>.Weathe.R .App</h1></div>
         </div>
         <div className="work-content">
