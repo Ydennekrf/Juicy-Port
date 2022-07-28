@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Juicy-Port/static/css/main.061919a8.css",
-    "main.js": "/Juicy-Port/static/js/main.b7057d7e.js",
+    "main.js": "/Juicy-Port/static/js/main.471e4b55.js",
     "static/media/empty-back.png": "/Juicy-Port/static/media/empty-back.42207fbdc0ccf25dafb7.png",
     "static/media/quiz2.png": "/Juicy-Port/static/media/quiz2.bc286e1077d6e99b577b.png",
     "static/media/weatherApp.jpg": "/Juicy-Port/static/media/weatherApp.8cdefe4fec3c99f06473.jpg",
@@ -11,7 +11,6 @@
     "static/media/htmlgen.png": "/Juicy-Port/static/media/htmlgen.d9f1767eb758e0c668ba.png",
     "static/media/jate.png": "/Juicy-Port/static/media/jate.705ad53b9e85ff69599a.png",
     "static/media/zelda-logo.jpg": "/Juicy-Port/static/media/zelda-logo.215f05fff84ced55be64.jpg",
-    "static/media/contact-btn.svg": "/Juicy-Port/static/media/contact-btn.bee194368c60b21c2e5375b1fd4577d0.svg",
     "static/media/amout-btn.svg": "/Juicy-Port/static/media/amout-btn.a70f9edbd1fc19d344abbee3210edd87.svg",
     "static/media/resume-btn.svg": "/Juicy-Port/static/media/resume-btn.48b1eb8fc6776c331c9d1f552a3134f6.svg",
     "static/media/home-btn.svg": "/Juicy-Port/static/media/home-btn.c22af0a25f90bb0d2cb9b00d50b15d80.svg",
@@ -30,10 +29,10 @@
     "static/media/github.svg": "/Juicy-Port/static/media/github.d4c3fbf515a5c4b4dd5dac6532c2959d.svg",
     "static/media/facebook.svg": "/Juicy-Port/static/media/facebook.2a4d84b0e14f6f510a02e61424710041.svg",
     "main.061919a8.css.map": "/Juicy-Port/static/css/main.061919a8.css.map",
-    "main.b7057d7e.js.map": "/Juicy-Port/static/js/main.b7057d7e.js.map"
+    "main.471e4b55.js.map": "/Juicy-Port/static/js/main.471e4b55.js.map"
   },
   "entrypoints": [
     "static/css/main.061919a8.css",
-    "static/js/main.b7057d7e.js"
+    "static/js/main.471e4b55.js"
   ]
 }
