@@ -1,21 +1,21 @@
 import React from 'react'
-import Grocery from "./screenshots/grocery.png";
+import Jate from "./screenshots/jate.png";
 function Work3() {
   return (
     <div className='workbox'>
         <div className="work-header">
-        <div className="work-link"><a href="https://just-acorn.herokuapp.com/" target="_blank">Deployed App</a></div>
-        <div className="title"><h1>Gro.Cery .List</h1></div>
+        <div className="work-link"><a href="https://joined-nail.herokuapp.com/" target="_blank">Deployed App</a></div>
+        <div className="title"><h1>J.A.T.E</h1></div>
         </div>
         <div className="work-content">
-        <div className="screenshot"><img src={Grocery} alt="grocery"/></div>
+        <div className="screenshot"><img src={Jate} alt="jate"/></div>
         <div className="blurb">
         <span className="focus-work">Role:</span><br/>
-          <p>Backend routes, models and database</p><br/>
+          <p>Solo Project</p><br/>
           <span className="focus-work">Tech:</span><br/>
-          <p>Node.JS Express Handlebars Twilio SQL</p><br/>
+          <p>PWA's  Webpack   JavaScript</p><br/>
           <span className="focus-work">Description:</span><br/>
-          <p>Grocery list creation app that will take in user dish selections and sends a compiled grocery list as a text message to the user's phone</p><br/>
+          <p>A simple text editor that is installable from the browser, uses service workers and local storage to allow for functionality while offline.</p><br/>
         </div>
         </div>
         
