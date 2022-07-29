@@ -47,6 +47,11 @@ function Resume() {
                 University of Toronto's SCS<br/>
                 May 2022 - August 2022<br/>
                 <br/></p>
+                <br/>
+                <br />
+                <p>Location:</p>
+                <p>St.Catharines ON CAN</p>
+                <p>ydennekrf@gmail.com</p>
                 </li>
                
                 <li className="download"><a download href={resume} ><img className="resume-download" alt="download" src={download}/></a></li>

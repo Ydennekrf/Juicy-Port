@@ -3,7 +3,6 @@ import Animation from './Animation';
 import Particle from './Particle';
 import Home from './pages/Home';
 import About from './pages/About';
-import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import Work from './pages/Work';
 import NavBar from './NavBar';
@@ -21,10 +20,6 @@ const Main = () => {
         if(currentPage === 'About') {
             return (<div><Avatar/>
             <About /></div>);
-        }
-        if(currentPage === 'Contact') {
-            
-            return <Contact />;
         }
         if(currentPage === 'Resume') {
             

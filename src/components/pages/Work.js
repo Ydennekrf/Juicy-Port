@@ -8,7 +8,7 @@ import Work5 from './sub-pages/Work5';
 import Work6 from './sub-pages/Work6';
 
 const Work = () => {
-  const[currentWork, setCurrentWork] = useState('Work2');
+  const[currentWork, setCurrentWork] = useState('Work1');
   const renderWork = () => {
     if(currentWork === 'Work1') {
       return <Work1 />;
