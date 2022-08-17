@@ -35,6 +35,8 @@ const Main = () => {
             <div className='viewport'>
             <div className="header">
             <h1>Fraser Kennedy</h1>
+            <p>Full Stack Web Developer</p>
+            <p>ydennekrf@gmail.com</p>
             </div>
             <div className='current-page'>
             <h2 >{currentPage}</h2>

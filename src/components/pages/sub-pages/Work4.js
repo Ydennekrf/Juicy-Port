@@ -4,11 +4,11 @@ function Work4() {
   return (
     <div className='workbox'>
         <div className="work-header">
-        <div className="work-link"><a href="https://ydennekrf.github.io/Weather-App/" target="_blank">Deployed App</a></div>
+        <div className="work-link"><a href="https://github.com/Ydennekrf/Weather-App" target="_blank">Github</a></div>
         <div className="title"><h1>.Weathe.R .App</h1></div>
         </div>
         <div className="work-content">
-        <div className="screenshot"><img src={Weather} alt="weather"/></div>
+        <div className="screenshot"><span className="focus-work">Deployed app:</span><a href="https://ydennekrf.github.io/Weather-App/" target="_blank"><img src={Weather} alt="weather"/></a></div>
         <div className="blurb">
         <span className="focus-work">Role:</span><br/>
           <p>Solo project</p><br/>

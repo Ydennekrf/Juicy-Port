@@ -4,11 +4,11 @@ function Work6() {
   return (
     <div className='workbox'>
         <div className="work-header">
-        <div className="work-link"><a href="https://ydennekrf.github.io/Java-Script-Quiz/" target="_blank">Deployed App</a></div>
+        <div className="work-link"><a href="https://github.com/Ydennekrf/Java-Script-Quiz" target="_blank">Github</a></div>
         <div className="title"><h1>Jav.AScript .Quiz</h1></div>
         </div>
         <div className="work-content">
-        <div className="screenshot"><img src={Quiz} alt="quiz"/></div>
+        <div className="screenshot"><span className="focus-work">Deployed app:</span><a href="https://ydennekrf.github.io/Java-Script-Quiz/" target="_blank"><img src={Quiz} alt="quiz"/></a></div>
         <div className="blurb">
         <span className="focus-work">Role:</span><br/>
           <p>Solo project</p><br/>

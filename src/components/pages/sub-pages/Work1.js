@@ -4,11 +4,11 @@ function Work1() {
   return (
     <div className='workbox'>
         <div className="work-header">
-        <div className="work-link"><a href="https://ydennekrf.github.io/Zelda-Travel-App/" target="_blank">Deployed App</a></div>
+        <div className="work-link"><a href="https://github.com/Ydennekrf/Zelda-Travel-App" target="_blank">Github</a></div>
         <div className="title"><h1>Zel.Da Travel. App</h1></div>
         </div>
         <div className="work-content">
-        <div className="screenshot"><img src={Zelda} alt="zelda"/></div>
+        <div className="screenshot"><span className="focus-work">Deployed app:</span><a href="https://ydennekrf.github.io/Zelda-Travel-App/" target="_blank"><img src={Zelda} alt="zelda"/></a></div>
         <div className="blurb">
           <span className="focus-work">Role:</span><br/>
           <p>api routes and JavaScript</p><br/>

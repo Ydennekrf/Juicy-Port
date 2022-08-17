@@ -4,7 +4,7 @@ function Work5() {
   return (
     <div className='workbox'>
         <div className="work-header">
-        <div className="work-link"><a href="https://github.com/Ydennekrf/Employee-Tracker" target="_blank">Git Hub Link</a></div>
+        <div className="work-link"><a href="https://github.com/Ydennekrf/Employee-Tracker" target="_blank">Github</a></div>
         <div className="title"><h1>Emp.Loyee Tracker.</h1></div>
         </div>
         <div className="work-content">

@@ -4,11 +4,11 @@ function Work2() {
   return (
     <div className='workbox'>
         <div className="work-header">
-        <div className="work-link"><a href="https://stockerinventory.herokuapp.com/" target="_blank">Deployed App</a></div>
+        <div className="work-link"><a href="https://github.com/SuedePritch/furry-leftover-broccoli" target="_blank">Github</a></div>
         <div className="title"><h1>Stoc.ker: inventory. App</h1></div>
         </div>
         <div className="work-content">
-        <div className="screenshot"><img src={HTMLGen} alt="HTML"/></div>
+        <div className="screenshot"><span className="focus-work">Deployed app:</span><a href="https://stockerinventory.herokuapp.com/" target="_blank"><img src={HTMLGen} alt="HTML"/></a></div>
         <div className="blurb">
         <span className="focus-work">Role:</span><br/>
           <p>server side queries and mutations, front end logic for admin page</p><br/>

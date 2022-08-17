@@ -43,18 +43,13 @@ function Resume() {
                 <li className='education'>
                 <h2>Education</h2>
                 <br/><br/><br/>
-                <p><span className="">Full Stack Web Development</span><br/><br/>Boot Camp Certificate<br/>
+                <p><span className="education-bold">Full Stack Web Development</span><br/><br/>Boot Camp Certificate<br/>
                 University of Toronto's SCS<br/>
                 May 2022 - August 2022<br/>
                 <br/></p>
-                <br/>
-                <br />
-                <p>Location:</p>
-                <p>St.Catharines ON CAN</p>
-                <p>ydennekrf@gmail.com</p>
                 </li>
                
-                <li className="download"><a download href={resume} ><img className="resume-download" alt="download" src={download}/></a></li>
+                <li className="download">download<br></br><a download href={resume} ><img className="resume-download" alt="download" src={download}/></a></li>
                 </ul>
             </div>
 
