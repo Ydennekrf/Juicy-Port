@@ -5,6 +5,7 @@
   margin-block-end: 0;
 }
 
+
 body {
     margin: 0;
     font-family: "Special Elite", "Bungee Hairline", "Major Mono Display";
@@ -137,7 +138,7 @@ body {
   .workNav {
     display: flex;
     background-color: #f3e767c7;
-    position: absolute;
+    position: relative;
     bottom:0.3vh;
     left: 2vw;
     min-width: 100px;
@@ -145,10 +146,10 @@ body {
     max-height: 5vh;
     border: #281b13 3px solid;
     z-index: 1;
-    align-items: center;
+    align-items: flex-end;
   }
   .workNav ul {
-    top: 0.3vh;
+    top: 1vh;
     height: 6vh;
     justify-content: space-evenly;
     width: 100%;
@@ -250,10 +251,11 @@ body {
     left:0.3vw;
   }
   .work {
-    display: block;
+    display: flex;
     position: relative;
     width: 100%;
-    height: 100%
+    height: 100%;
+    align-items: flex-end;
   }
 
   .workbox {
@@ -263,8 +265,9 @@ body {
     height: 40vh;
     width: fit-content;
     top:20vh;
-    left: 25vw;
+    left: 10vw;
     z-index: 1;
+    align-self: flex-start;
   }
   .work-header {
     display: flex;
@@ -581,13 +584,13 @@ body {
   
    
     .workNav {
-      left: 0vw;
+      left: 1vw;
       width: 55vw;
       max-height: 5vh;      
     }
     .workNav ul {
-      top: 0vh;
-      height: 7vh;      
+      top: 2vh;
+      height: 5vh;      
     }
     .work-icon {
       bottom: 20px;
@@ -625,20 +628,20 @@ body {
       height: 40vh;
       width: 95%;
       top:20vh;
-      left: 3vw;
+      left: -25vw;
     }
     .title {
-      height: 50px;
-      width: 40vw;
+      height: 7vh;
+      width: 50vw;
     }
     .title h1 {
-      font-size: 20px;
+      font-size: large;
       top: 1vh;
     }
     .blurb {
       right:2vw;
       left:2vw;
-      width:40vw;
+      width: fit-content;
     }
     .work-link {
       margin-right: 55px;
@@ -658,11 +661,12 @@ body {
     }
 
     .socials {
-      width: 49vw;
-      left:53vw;
+      bottom: 2vh;
+      width: 30vw;
+      left:70vw;
     }
     .social-list img {
-      width: 5vw;
+      width: 3vw;
     }
   
     .resume {
