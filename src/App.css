@@ -14,7 +14,7 @@ body {
   }
   .viewport {
     display: flex;
-    position: absolute;
+    position: relative;
     width:75vw;
     height: 75vh;
     top:12.5vh;
@@ -24,7 +24,7 @@ body {
     background-repeat: no-repeat;
     background-position: 60% 10%;
     background-size: cover;
-    align-items: baseline;
+    align-items: center;
     box-shadow:0px 0px 5px #19181f;
     margin: 0;
   }
@@ -46,12 +46,12 @@ body {
     flex-direction: column;
     position: absolute;
     right:5vw;
-    top:7vh;
+    top:4vh;
     max-height: 42px;
     z-index: 1;
   }
   .header h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
   #under-bar {
     position: absolute;
@@ -68,7 +68,7 @@ body {
     border-bottom: #281b13 10px solid;
   }
   .nav {
-    position: absolute;
+    position: relative;
     background-color: #f3e767c7;
     border: #281b13 3px solid;
     z-index: 2;
@@ -76,11 +76,9 @@ body {
     flex-direction: column;
     align-items: center;    
     height: 45vh;
-    margin: 0;
-    padding:0;
-    top:20vh;
-    right:5vw;
-    
+    top: 4vh;
+    left: 3vw;
+    justify-content: flex-end;   
   }
   .nav-list {
     display: flex;
@@ -203,8 +201,7 @@ body {
     font-size: 24px;
     z-index: 1;
     position: relative;
-    top: 22vh;
-    left: 10vh;
+    left: 40vw;
     overflow-y: auto;
     max-width: 325px;
     max-height: 240px;
@@ -221,7 +218,7 @@ body {
     z-index: 1;
     position: absolute;
     top: 20vh;
-    left: 19vw;
+    left: 10vw;
     width: 39vw;
     height: fit-content;
     max-height: 42vh;
@@ -233,20 +230,24 @@ body {
   .focus {
     font-weight: 900;
     font-size: 15px;
-    color:#934b0d;
+    color:#6d1b02;
   }
 
-  #avatar {
+  .avatar {
     z-index: 1;
-    position: absolute;
-    bottom:7.2vh;
-    left:-0.25vw;
-    display: block;
+    position: relative;
+    display: flex;
+    height: 75vh;
+    width: 100vw;
+    justify-content: right;
+    align-items: center;
   }
 
   #avatar-pic {
-    height: 20%;
-  
+    position: relative;
+    height: 30vh;
+    top: 14.7vh;
+    left:0.3vw;
   }
   .work {
     display: block;
@@ -262,7 +263,7 @@ body {
     height: 40vh;
     width: fit-content;
     top:20vh;
-    left: 5vw;
+    left: 25vw;
     z-index: 1;
   }
   .work-header {
@@ -270,16 +271,19 @@ body {
     flex-direction: row;
   }
   .title {
+    display: flex;
     background-color: #7b764ac6;
     border:2px inset #281b13;
     border-radius: 5px;
     text-align: center;
-    height: 50px;
-    width: 21vw;
+    justify-content: center;
+    height: 5vh;
+    width: 24vw;
     color: #000000;
     margin: 10px;
   }
   .title h1 {
+    font-size: larger;
     position: relative;
     top: 1vh;
   }
@@ -297,7 +301,7 @@ body {
     border:2px inset #221a14e3;
     border-radius: 5px;
     color: #030101;
-    left:2vw;
+    left:1vw;
     width:10vw;
   }
   .work-link {
@@ -306,7 +310,7 @@ body {
     border:2px inset #281b13;
     border-radius: 5px;
     width: 7vw;
-    height: 35px;
+    height: 5vh;
     text-align: center;
   }
   .work-link a{
@@ -340,26 +344,7 @@ body {
     font-size: 10px;
     
   }
-  .contact-box {
-    position: relative;
-    top:15vh;
-    display: flex;
-    justify-content: center;
-    height: 40vh;
-    width: 30vw;
-  }
-  .contact-form {
-    background-color: #4a331fde;
-    border:2px inset #281b13;
-    border-radius: 5px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    top:10vh;
-    width: 14vw;
-    height: 32vh;
-    z-index: 1;
-  }
+
   .info-list {
     
     position: relative;
@@ -438,8 +423,8 @@ body {
     z-index: 1;
     list-style-type: none;
     position: relative;
-    top:19vh;
-    left: 5vw;
+    top:4vh;
+    left: 10vw;
     border: 2px inset #281b13;
     border-radius: 5px;
   }
@@ -453,13 +438,15 @@ body {
   .resume h2 {
     position: relative;
     top: 1vh;
+    font-size: larger;
   }
 
   .download {
     text-decoration: none;
     position: relative;
     top: 30vh;
-    left:2vh;
+    left:-10vh;
+    font-size: small;
   }
   .download:hover {
     filter: drop-shadow(3px 5px 2px #e6ce58c7);
@@ -504,7 +491,7 @@ body {
 }
 
 .focus-work {
-  color:#934b0d;
+  color:#6d1b02;
   padding-top: 10px;
   padding-left: 5px;
 }
@@ -513,11 +500,12 @@ body {
   padding-left: 7px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1200px){
+
 
     .viewport {
       
-      position: absolute;
+      position: relative;
       width:100vw;
       height: 100vh;
       top:0vh;
@@ -545,7 +533,7 @@ body {
       z-index: 1;
     }
     .header h1 {
-      font-size: 40px;
+      font-size: 30px;
     }
     #under-bar {
       display: none;
@@ -553,24 +541,29 @@ body {
     #bottom-bar {
       display: none;
     }
+    .current-page {
+      display:none;
+    }
     .nav {
       position: absolute;
       z-index: 2;
-      flex-direction: row;
-      width: 100%;
+      width: 100vw;
       height: 6vh;
       top:0vh;
-      right:0vw;
-      justify-content: space-evenly;
+      left:0vw;
+      border: #000000 0px;
+      border-bottom: #000000 5px solid;
+
     }
     .nav-list {
+      max-height: 5vh;
       flex-direction: row;
-      position: absolute;
-      top:-1vh;
+      position: relative;
+      align-items: baseline;
+      justify-content: center;
       display: flex;
-    }
-    .current-page {
-      top:15vh;     
+      bottom: 2vh;
+
     }
     .landing-icon {
       margin-inline: 10px;
@@ -601,28 +594,30 @@ body {
     }  
     .brand {
       font-family: "Major Mono Display";
+      width: 90vw;
+      left: 1vw;
     }
   
     .about {
-      font-size: 10px;
-      top: 37vh;
+      font-size: medium;
+      top: 30vh;
       left: 4vw;
-      width: 90%;
+      width: 85%;
       height: 55%;
       overflow: auto;
-      font-family: "Bungee Hairline";
     }
     .focus {
-      font-size: 10px;
+      font-size: medium;
     }
   
-    #avatar {
-      top:18vh;
-      left:-1.2vw;
+    .avatar {
+      bottom: 0vh;
+      left:0.6vw;
     }
   
     #avatar-pic {
-      height: 155px;
+      top:-20vh;
+      height: 25vh;
     
     }
   
@@ -658,21 +653,10 @@ body {
   
     .screenshot img {
       width: 39vw;
-      height: 27vh;
+      height: 25vh;
+      border-radius: 5%;
     }
-    .contact-box {
-      height: 100vh;
-      width: 100vw;
-    }
-    .contact-form {
-      width: 64vw;
-      height: 38vh;
-    }
-    .contact-btn {
-      left:16vw;
-      width: 30vw;
-  
-    }
+
     .socials {
       width: 49vw;
       left:53vw;
@@ -688,6 +672,7 @@ body {
       justify-content: space-evenly;
       width: 90vw;
       height: 60vh;
+      left: 4vw;
     }
     .resume-list {
       display: flex;
@@ -695,6 +680,7 @@ body {
       list-style-type: none;
       justify-content: space-evenly;
       width:55vw;
+      margin: 0.25vw;
     }
     .resume h2 {
       position: relative;
@@ -702,39 +688,38 @@ body {
     }
   
     .download {
-      position: absolute;
+      position: relative;
       top: 55vh;
-      left:45vh;
+      left:0vw;
       height: 4vh;
     }
   
     .education {
       position: relative;
-      top:15vh;
+      top:3vh;
       left:11vw;
       font-size: 10px;
     }
   
     .skills {
       position: relative;
-      top:10vh;
-      font-size: 10px;
+      top:3vh;
+      font-size: small;
   
     }
   
   .experience {
-    font-size: 10px;
+    font-size: smaller;
     position: relative;
-    right:8vw;
-    top: 1vh;
+    right:0vw;
+    top: 3vh;
   }
   .experience-list {
     list-style-type: none;
-    font-size: 10px;
+    font-size: smaller;
   }
   
   .focus-work {
-    color:#b6b598;
     padding-top: 10px;
     padding-left: 5px;
   }

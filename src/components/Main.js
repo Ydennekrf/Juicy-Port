@@ -18,7 +18,7 @@ const Main = () => {
             return <Home />;
         }
         if(currentPage === 'About') {
-            return (<div><Avatar/>
+            return (<div className="avatar"><Avatar/>
             <About /></div>);
         }
         if(currentPage === 'Resume') {
