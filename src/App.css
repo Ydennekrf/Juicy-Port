@@ -79,6 +79,7 @@ body {
     height: 45vh;
     top: 4vh;
     left: 3vw;
+    padding: 5px;
     justify-content: flex-end;   
   }
   .nav-list {
@@ -160,6 +161,8 @@ body {
   .work-icon {
     list-style-type:none;
     position: relative;
+    display: flex;
+    align-items: flex-end;
   }
   .work-icon img {
     width:15px;
@@ -556,6 +559,8 @@ body {
       left:0vw;
       border: #000000 0px;
       border-bottom: #000000 5px solid;
+      justify-content: center;
+      
 
     }
     .nav-list {
@@ -563,7 +568,7 @@ body {
       flex-direction: row;
       position: relative;
       align-items: baseline;
-      justify-content: center;
+      justify-content: space-evenly;
       display: flex;
       bottom: 2vh;
 
@@ -584,7 +589,7 @@ body {
   
    
     .workNav {
-      left: 1vw;
+      left: -1vw;
       width: 55vw;
       max-height: 5vh;      
     }
@@ -593,7 +598,9 @@ body {
       height: 5vh;      
     }
     .work-icon {
-      bottom: 20px;
+      bottom: 5px;
+      display: flex;
+      align-items: center;
     }  
     .brand {
       font-family: "Major Mono Display";
@@ -627,8 +634,8 @@ body {
     .workbox {
       height: 40vh;
       width: 95%;
-      top:20vh;
-      left: -25vw;
+      top:-27vh;
+      left: 0vw;
     }
     .title {
       height: 7vh;
@@ -658,12 +665,13 @@ body {
       width: 39vw;
       height: 25vh;
       border-radius: 5%;
+      left:0vw;
     }
 
     .socials {
       bottom: 2vh;
       width: 30vw;
-      left:70vw;
+      left:0vw;
     }
     .social-list img {
       width: 3vw;
@@ -708,6 +716,7 @@ body {
     .skills {
       position: relative;
       top:3vh;
+      left: 3vw;
       font-size: small;
   
     }
@@ -715,7 +724,7 @@ body {
   .experience {
     font-size: smaller;
     position: relative;
-    right:0vw;
+    right:1vw;
     top: 3vh;
   }
   .experience-list {
@@ -730,6 +739,9 @@ body {
   .blurb p {
     font-size: 12px;
     padding-left: 7px;
+  }
+  .work {
+    flex-direction: column-reverse;
   }
 }
 
