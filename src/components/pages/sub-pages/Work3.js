@@ -10,12 +10,12 @@ function Work3() {
         <div className="work-content">
         <div className="screenshot"><span className="focus-work">Deployed app:</span><a href="https://joined-nail.herokuapp.com/" target="_blank"><img src={Jate} alt="jate"/></a></div>
         <div className="blurb">
-        <span className="focus-work">Role:</span><br/>
-          <p>Solo Project</p><br/>
-          <span className="focus-work">Tech:</span><br/>
-          <p>PWA's  Webpack   JavaScript</p><br/>
-          <span className="focus-work">Description:</span><br/>
-          <p>A simple text editor that is installable from the browser, uses service workers and local storage to allow for functionality while offline.</p><br/>
+        <span className="focus-work">Role:</span>
+          <p>Solo Project</p>
+          <span className="focus-work">Tech:</span>
+          <p>PWA's  Webpack   JavaScript</p>
+          <span className="focus-work">Description:</span>
+          <p>A simple text editor that is installable from the browser, uses service workers and local storage to allow for functionality while offline.</p>
         </div>
         </div>
         

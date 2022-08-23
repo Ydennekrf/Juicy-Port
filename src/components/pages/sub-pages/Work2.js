@@ -10,12 +10,12 @@ function Work2() {
         <div className="work-content">
         <div className="screenshot"><span className="focus-work">Deployed app:</span><a href="https://stockerinventory.herokuapp.com/" target="_blank"><img src={HTMLGen} alt="HTML"/></a></div>
         <div className="blurb">
-        <span className="focus-work">Role:</span><br/>
-          <p>server side queries and mutations, front end logic for admin page</p><br/>
-          <span className="focus-work">Tech:</span><br/>
-          <p>MERN full stack  JWT authentication  graphQL  Apollo Server</p><br/>
-          <span className="focus-work">Description:</span><br/>
-          <p>A client facing Ecommerce website with an inventory management Admin page that easily accepts an CSV file and can be up and running with little set up.</p><br/>
+        <span className="focus-work">Role:</span>
+          <p>server side queries and mutations, front end logic for admin page</p>
+          <span className="focus-work">Tech:</span>
+          <p>MERN full stack  JWT authentication  graphQL  Apollo Server</p>
+          <span className="focus-work">Description:</span>
+          <p>A client facing Ecommerce website with an inventory management Admin page that easily accepts an CSV file and can be up and running with little set up.</p>
         </div>
         </div>
         
