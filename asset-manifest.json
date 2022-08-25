@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Juicy-Port/static/css/main.40583889.css",
-    "main.js": "/Juicy-Port/static/js/main.bde47ce2.js",
+    "main.css": "/Juicy-Port/static/css/main.84d2ef28.css",
+    "main.js": "/Juicy-Port/static/js/main.a0746311.js",
     "static/media/empty-back.png": "/Juicy-Port/static/media/empty-back.42207fbdc0ccf25dafb7.png",
     "static/media/quiz2.png": "/Juicy-Port/static/media/quiz2.bc286e1077d6e99b577b.png",
     "static/media/weatherApp.jpg": "/Juicy-Port/static/media/weatherApp.8cdefe4fec3c99f06473.jpg",
@@ -14,12 +14,6 @@
     "static/media/amout-btn.svg": "/Juicy-Port/static/media/amout-btn.1e32f1e92245cbda81d72259909518f9.svg",
     "static/media/resume-btn.svg": "/Juicy-Port/static/media/resume-btn.7d1b5d98a71ad8cb92a4975f3b973dad.svg",
     "static/media/home-btn.svg": "/Juicy-Port/static/media/home-btn.c07c3cfd74168457ea74bcb11c66606f.svg",
-    "static/media/work3-btn.svg": "/Juicy-Port/static/media/work3-btn.0bcab7fc16e7fa982374322fdaa7005f.svg",
-    "static/media/work4-btn.svg": "/Juicy-Port/static/media/work4-btn.aba79b52be9aa6ac55f384a9375adbf6.svg",
-    "static/media/work6-btn.svg": "/Juicy-Port/static/media/work6-btn.d132286582101847dce7916d91629463.svg",
-    "static/media/work5-btn.svg": "/Juicy-Port/static/media/work5-btn.f683fa1e9f452a9262e16db4d7cef945.svg",
-    "static/media/work2-btn.svg": "/Juicy-Port/static/media/work2-btn.4607925310b4e9638f70f3af0896c035.svg",
-    "static/media/work1-btn.svg": "/Juicy-Port/static/media/work1-btn.fa4086dd81d40bc609d3d8f6cf3417b3.svg",
     "static/media/work-btn.svg": "/Juicy-Port/static/media/work-btn.3856837953bc94bf34e366f4e5381dd2.svg",
     "static/media/instagram.svg": "/Juicy-Port/static/media/instagram.c56bdee7b63ebffa6047c1a058ae8de4.svg",
     "static/media/download.svg": "/Juicy-Port/static/media/download.9aac1d8d8ba29168b37b9dd300872a11.svg",
@@ -28,11 +22,12 @@
     "index.html": "/Juicy-Port/index.html",
     "static/media/github.svg": "/Juicy-Port/static/media/github.9e6ff7595563eecf01f5cbd713dfe4f0.svg",
     "static/media/facebook.svg": "/Juicy-Port/static/media/facebook.2a4d84b0e14f6f510a02e61424710041.svg",
-    "main.40583889.css.map": "/Juicy-Port/static/css/main.40583889.css.map",
-    "main.bde47ce2.js.map": "/Juicy-Port/static/js/main.bde47ce2.js.map"
+    "static/media/work-option.svg": "/Juicy-Port/static/media/work-option.dde7fc39dd521b3aef5d1d6530162fda.svg",
+    "main.84d2ef28.css.map": "/Juicy-Port/static/css/main.84d2ef28.css.map",
+    "main.a0746311.js.map": "/Juicy-Port/static/js/main.a0746311.js.map"
   },
   "entrypoints": [
-    "static/css/main.40583889.css",
-    "static/js/main.bde47ce2.js"
+    "static/css/main.84d2ef28.css",
+    "static/js/main.a0746311.js"
   ]
 }
