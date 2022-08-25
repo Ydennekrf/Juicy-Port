@@ -15,11 +15,8 @@ const Main = () => {
     
     const renderPage = () => {
         if(currentPage === 'Home') {
-            return <Home />;
-        }
-        if(currentPage === 'About') {
             return (<div className="avatar"><Avatar/>
-            <About /></div>);
+            <Home /></div>);
         }
         if(currentPage === 'Resume') {
             

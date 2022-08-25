@@ -11,8 +11,8 @@ function WorkNav({currentWork, handleWorkChange}) {
   return (
     <div className="workNav">
         <ul>
-              <li className='work-icon'><a href="#" onClick={() => handleWorkChange("Work1")}><br/><br/><span className={currentWork === 'Work1' ? 'work-link-active' : 'work-word'}><img src={work1} alt="work1"/>1</span></a></li>
-              <li className='work-icon'><a href="#" onClick={() => handleWorkChange("Work2")}><br/><br/><span className={currentWork === 'Work2' ? 'work-link-active' : 'work-word'}><img src={work2} alt="work2"/>2</span></a></li>
+              <li className='work-icon'><a href="#" onClick={() => handleWorkChange("Work1")}><br/><br/><span className={currentWork === 'Work1' ? 'work-link-active' : 'work-word'}><img src={work1} alt="work1"/>Stocker</span></a></li>
+              <li className='work-icon'><a href="#" onClick={() => handleWorkChange("Work2")}><br/><br/><span className={currentWork === 'Work2' ? 'work-link-active' : 'work-word'}><img src={work2} alt="work2"/>Zelda</span></a></li>
               <li className='work-icon'><a href="#" onClick={() => handleWorkChange("Work3")}><br/><br/><span className={currentWork === 'Work3' ? 'work-link-active' : 'work-word'}><img src={work3} alt="work3"/>3</span></a></li>
               <li className='work-icon'><a href="#" onClick={() => handleWorkChange("Work4")}><br/><br/><span className={currentWork === 'Work4' ? 'work-link-active' : 'work-word'}><img src={work4} alt="work4"/>4</span></a></li>
               <li className='work-icon'><a href="#" onClick={() => handleWorkChange("Work5")}><br/><br/><span className={currentWork === 'Work5' ? 'work-link-active' : 'work-word'}><img src={work5} alt="work5"/>5</span></a></li>
