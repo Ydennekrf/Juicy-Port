@@ -137,61 +137,53 @@ body {
 
  
   .workNav {
-    display: flex;
+    display: inline-flex;
     background-color: #f3e767c7;
     position: relative;
-    bottom:0.3vh;
-    left: 2vw;
+    bottom:11vh;
+    left: 40%;
     min-width: 100px;
-    width: 15vw;
+    width:fit-content;
     max-height: 5vh;
     border: #281b13 3px solid;
-    z-index: 1;
+    border-radius: 15px;
+    z-index: 3;
     align-items: flex-end;
+    justify-content: center;
+    font-size: medium;
   }
-  .workNav ul {
-    top: 1vh;
-    height: 6vh;
-    justify-content: space-evenly;
-    width: 100%;
-    display: inline-flex;
-    flex-direction: row;
-    
-  }
+
   .work-icon {
     list-style-type:none;
     position: relative;
     display: flex;
     align-items: flex-end;
+    height: 2vh;
   }
   .work-icon img {
-    width:15px;
-    height: 15px;
+    height: 1.5vh
   }
+
   .work-icon a {
     text-decoration: none;
     color: #19181f;
   }
   .work-word {
+    bottom: 2px;
     display: flex;
     flex-direction: column;
     position: relative;
-    bottom:0.5vh;
     text-align: center;
-    left: 10%;
-    font-size: 10px;
+    left: 0%;
+    
   }
   .work-link-active {
+    bottom:0px;
     display: flex;
-    flex-direction: column;
     position: relative;
-    justify-self: center;
-    left: 1%;
-    bottom: 0.5vh;;
-    font-size: 13px;
-    font-weight: 500;
-    text-shadow: 2px 0px 2px #74cab4c7;
-    filter: drop-shadow(3px 5px 2px #74cab4c7);
+    border: #316d85c4 solid 2px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 1px 2px #6dc8fce3);
   }
 
  
@@ -589,19 +581,23 @@ body {
   
    
     .workNav {
-      left: -1vw;
-      width: 55vw;
-      max-height: 5vh;      
+      width: 7vw;
+      max-height: 2vh;
+      bottom: 5vh;
+      left: -1vw;     
     }
-    .workNav ul {
-      top: 2vh;
-      height: 5vh;      
-    }
+   
     .work-icon {
-      bottom: 5px;
       display: flex;
       align-items: center;
-    }  
+      top: 4px;
+    } 
+    .work-link-active {
+      bottom: 4px;
+    }
+    .work-icon a {
+      height: 2vh;
+    } 
     .brand {
       font-family: "Major Mono Display";
       width: 90vw;
